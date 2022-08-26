@@ -172,6 +172,7 @@ tbody td:before {
     font-family:Verdana, Geneva, Tahoma, sans-serif;  
     font-weight: 600;
     font-size: 1em;
+    padding: 9px;
   }
 
   .habilidades{
@@ -236,6 +237,9 @@ tbody td:before {
       tbody td{
         font-size: 1em;
       }
+      tr td:first-child {
+       font-size: 1em;
+    }
       .middle-container{
         margin-left: 5%;
         margin-right: 5%;
@@ -246,6 +250,7 @@ tbody td:before {
     .perfil {
       width: auto;
      max-height: 10em;
+     float: none;
     }
     h1{
       font-size: 1.5em;
@@ -255,6 +260,7 @@ tbody td:before {
       }
       h3{ 
         font-size: 1em;
+        text-align: center;
       }
   
       h4{ 
