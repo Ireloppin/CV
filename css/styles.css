@@ -227,6 +227,8 @@ tbody td:before {
     }
 
 
+    /***responsive tamaño movil***/
+
     @media screen and (max-width: 640px){
       .habilidades{
         font-size: 1em;
@@ -236,47 +238,35 @@ tbody td:before {
       }
       .middle-container{
         margin-left: 5%;
-        margin-right: 5%
+        margin-right: 5%;
     }
     .skill-row{
       width: 90%;
     }
+    .perfil {
+      width: auto;
+     max-height: 10em;
+    }
+    h1{
+      font-size: 1.5em;
+      }
+      h2{ 
+        font-size: 1.2em;
+      }
+      h3{ 
+        font-size: 1em;
+      }
+  
+      h4{ 
+        font-size: 0.7em;
+      }
   }
 
 
-/***responsive tamaño movil
-    @media (max-width: 640px) {
-      .perfil {
-        width: auto;
-       max-height: 10em;
-      }
-      h1{
-        font-size: 1.5em;
-        }
-        h2{ 
-          font-size: 1.2em;
-        }
-        h3{ 
-          font-size: 1em;
-        }
-    
-        h4{ 
-          font-size: 0.7em;
-        }
-      .middle-container, .titulo-formacion{
-        margin-left: 5%;
-        margin-right: 5%;
-      }
-      .formacion{
-        margin: 5% 10%;
-       
-      }
-      
-    }
-    ****/
+
   
-/***responsive tamaño tablet
-@media (max-width:1007px) and (min-width:641px) {
+/***responsive tamaño tablet***/
+@media screen and (max-width:1007px) and (min-width:641px) {
   .perfil {
     width: auto;
    max-height: 15em;
@@ -294,13 +284,8 @@ tbody td:before {
     h4{ 
       font-size: 0.7em;
     }
-
-    .middle-container .titulo-formacion{
+    .middle-container{
       margin-left: 7%;
       margin-right: 7%;
-    }
-    .formacion{
-      margin: 5% 15%;
-     
-    }
-}****/
+}
+}
