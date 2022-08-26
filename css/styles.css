@@ -107,23 +107,16 @@ tbody td:before {
 
    
 }
-/*.perfil{
-   width: auto;
-   max-height: 25em;
-   border-radius: 50%;
-    }*/
 
     .perfil{
       width: 30%;
       float: left;
       margin-right: 30px;
+      border-radius: 50%;
 
     }
   
 .top-container{
-  /*display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;*/
   background-color: #EAF6F6;
   line-height: 2;
   text-align: center;
@@ -271,7 +264,7 @@ tbody td:before {
     ****/
 
 
-/***responsive tamaño tablet****/
+/***responsive tamaño tablet
 @media (max-width:1007px) and (min-width:641px) {
   .perfil {
     width: auto;
@@ -299,4 +292,4 @@ tbody td:before {
       margin: 5% 15%;
      
     }
-}
+}****/
