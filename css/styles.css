@@ -58,13 +58,7 @@ button{
     font-family:Arial, Helvetica, sans-serif;
   }
 
-  /*table{
-    width: 100%;
-    text-align: left;
-    font-family:Arial, Helvetica, sans-serif;
-
-  }*/
-
+ 
   table {
     width:100%;
     font-family:Arial, Helvetica, sans-serif;
@@ -113,15 +107,23 @@ tbody td:before {
 
    
 }
-.perfil{
+/*.perfil{
    width: auto;
    max-height: 25em;
    border-radius: 50%;
-     }
+    }*/
+
+    .perfil{
+      width: 30%;
+      float: left;
+      margin-right: 30px;
+
+    }
+  
 .top-container{
-  display: flex;
+  /*display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-around;*/
   background-color: #EAF6F6;
   line-height: 2;
   text-align: center;
@@ -237,7 +239,7 @@ tbody td:before {
       background-image: linear-gradient(to bottom, #91e3e3, #6ac9c9);
       text-decoration: none;
     }
-/***responsive tamaño movil****/
+/***responsive tamaño movil
     @media (max-width: 640px) {
       .perfil {
         width: auto;
@@ -266,6 +268,7 @@ tbody td:before {
       }
       
     }
+    ****/
 
 
 /***responsive tamaño tablet****/
