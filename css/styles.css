@@ -39,10 +39,6 @@ header{
       padding-top: 0.9em;
     background-color: #6D8B74;
         }
-td {
-
-        padding: 1% 2%;
-    }
 
 button{
       background-color: #6D8B74;
@@ -77,7 +73,8 @@ tr td:first-child {
 tbody td {
     display: block;
     text-align:center;
-    font-size:1.3em;
+    font-size:1em;
+    padding: 1% 2%;
 }
 tbody td:before {
     content: attr(data-th);
@@ -105,9 +102,8 @@ tbody td:before {
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-
+  }
    
-}
 
     .perfil{
       width: 30%;
@@ -161,10 +157,10 @@ tbody td:before {
     padding-bottom: 3%;
     padding-top: 2%;
     color:#ffffff;
-  
-
   }
-
+.redes{
+  margin:30px 100px;
+}
   .contact-me{
     padding-bottom: 5%;
   }
@@ -172,17 +168,17 @@ tbody td:before {
     color: #11999E;
   }
   .footer-links{
-    color:#EAF6F6;
+    color:#11999E;
     text-decoration: none;
     font-family:Verdana, Geneva, Tahoma, sans-serif;  
     font-weight: 600;
+    font-size: 1em;
   }
 
   .habilidades{
     color:#11999E;
     font-family:Verdana, Geneva, Tahoma, sans-serif;  
     font-weight: 600;
-    font-size: 1.3em;
     padding: 0 5%;
  }
 
@@ -218,6 +214,7 @@ tbody td:before {
       font-size: 20px;
       padding: 10px 20px 10px 20px;
       text-decoration: none;
+      
     }
 
     .btn:hover{
@@ -259,8 +256,21 @@ tbody td:before {
       
     }
     ****/
-
-
+    @media (max-width: 640px){
+      .habilidades{
+        font-size: 2em;
+      }
+      tbody td{
+        font-size: 1.5em;
+      }
+      .middle-container{
+        margin-left: 5%;
+        margin-right: 5%
+    }
+    .skill-row{
+      width: 100%;
+    }
+  }
 /***responsive tamaño tablet
 @media (max-width:1007px) and (min-width:641px) {
   .perfil {
