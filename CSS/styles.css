@@ -58,11 +58,37 @@ button{
     font-family:Arial, Helvetica, sans-serif;
   }
 
-  table{
+  /*table{
     width: 100%;
     text-align: left;
     font-family:Arial, Helvetica, sans-serif;
-  }
+
+  }*/
+
+  table {
+    width:100%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+thead {
+    display: none;
+}
+tr:nth-of-type(2n) {
+    background-color: inherit;
+}
+tr td:first-child {
+    background: #f0f0f0;
+    font-weight:bold;
+    font-size:1.3em;
+}
+tbody td {
+    display: block;
+    text-align:center;
+}
+tbody td:before {
+    content: attr(data-th);
+    display: block;
+    text-align:center;
+}
 
       /***********************CLASS SELECTORS*********************/
 .logo{
@@ -82,38 +108,39 @@ button{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+
    
 }
 .perfil{
-   width: 25%;
-    float: left;
-    margin-left: 30px;
-    border-radius: 50%;
-  }
+   width: auto;
+   max-height: 25em;
+   border-radius: 50%;
+     }
 .top-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
   background-color: #EAF6F6;
-  position: relative;
-  padding: 3% 10%;
   line-height: 2;
   text-align: center;
-  }
+  padding: 3% 10%;
+   }
   
   .middle-container{
     position: relative;
     padding-top: 3%;
-    margin:auto auto;
     line-height: 2;
+    margin-left: 9%;
+    margin-right: 9%;
       }
   .skills{
     padding-top: 3%;
-    margin-left: 10%;
-    margin-right: 10%;
-  padding-bottom: 3%;
+    padding-bottom: 3%;
   }
   .formacion{
-    margin: 5% 10%;
+    margin: 5% 20%;
     line-height: 2;
   }
   .presentacion{
@@ -124,6 +151,12 @@ button{
     background-color: #EAF6F6;
     padding: 2%;
   }
+  .titulo-formacion{
+    background-color: #EAF6F6;
+    padding: 2%;
+    margin-left: 9%;
+    margin-right: 9%;
+  }
 
   .skill-row{    
     width: 80%;
@@ -132,7 +165,7 @@ button{
     text-align: justify;
    }
 
-  .bottom-container{
+    .bottom-container{
     background-color:  #EAF6F6;
     padding-bottom: 3%;
     padding-top: 2%;
@@ -158,6 +191,7 @@ button{
     color:#11999E;
     font-family:Verdana, Geneva, Tahoma, sans-serif;  
     font-weight: 600;
+    padding: 0 5%;
  }
 
 
@@ -203,3 +237,63 @@ button{
       background-image: linear-gradient(to bottom, #91e3e3, #6ac9c9);
       text-decoration: none;
     }
+/***responsive tamaño movil****/
+    @media (max-width: 640px) {
+      .perfil {
+        width: auto;
+       max-height: 10em;
+      }
+      h1{
+        font-size: 1.5em;
+        }
+        h2{ 
+          font-size: 1.2em;
+        }
+        h3{ 
+          font-size: 1em;
+        }
+    
+        h4{ 
+          font-size: 0.7em;
+        }
+      .middle-container, .titulo-formacion{
+        margin-left: 5%;
+        margin-right: 5%;
+      }
+      .formacion{
+        margin: 5% 10%;
+       
+      }
+      
+    }
+
+
+/***responsive tamaño tablet****/
+@media (max-width:1007px) and (min-width:641px) {
+  .perfil {
+    width: auto;
+   max-height: 15em;
+  }
+  h1{
+    font-size: 2.5em;
+    }
+    h2{ 
+      font-size: 1.2em;
+    }
+    h3{ 
+      font-size: 1em;
+    }
+
+    h4{ 
+      font-size: 0.7em;
+    }
+
+    .middle-container .titulo-formacion{
+      margin-left: 7%;
+      margin-right: 7%;
+    }
+    .formacion{
+      margin: 5% 15%;
+     
+    }
+}
