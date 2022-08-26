@@ -77,6 +77,7 @@ tr td:first-child {
 tbody td {
     display: block;
     text-align:center;
+    font-size:1.3em;
 }
 tbody td:before {
     content: attr(data-th);
@@ -139,8 +140,9 @@ tbody td:before {
     line-height: 2;
   }
   .presentacion{
-    margin: 3% 15%;
+    margin: 3% 10%;
     line-height: 2;
+    text-align: justify;
   }
   .titulo{
     background-color: #EAF6F6;
@@ -180,7 +182,7 @@ tbody td:before {
     color:#11999E;
     font-family:Verdana, Geneva, Tahoma, sans-serif;  
     font-weight: 600;
-    font-size: larger;
+    font-size: 1.3em;
     padding: 0 5%;
  }
 
