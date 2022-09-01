@@ -127,11 +127,8 @@ tbody td:before {
     margin-left: 9%;
     margin-right: 9%;
       }
-  .bloque-experiencia{
-    padding-top: 3%;
-    padding-bottom: 3%;
-  }
-  .formacion{
+  
+      .formacion{
     margin: 5% 10%;
     line-height: 2;
   }
@@ -144,13 +141,15 @@ tbody td:before {
   .titulo{
     background-color: #EAF6F6;
     padding: 2%;
+    margin: 2% 20%;
   }
  
   .bloque-texto{    
     width: 80%;
     margin: 5% auto;
-    text-align: left;
+    text-align: center;
     text-align: justify;
+    float: inline-end;
    }
 
     .bottom-container{
@@ -189,6 +188,8 @@ tbody td:before {
     width: 30%;
     float: left;
     margin-right: 30px;
+    
+    vertical-align:baseline;
   }
   .iconoder {
     width: 25%;
@@ -228,7 +229,16 @@ tbody td:before {
       background-image: linear-gradient(to bottom, #91e3e3, #6ac9c9);
       text-decoration: none;
     }
+    /***id selecctors***/
 
+    #primer-bloque, #segundo-bloque, #tercer-bloque{
+display: none ;
+    }
+
+    #expproduccion, #exprealizacion{
+      padding-bottom:3%;
+      vertical-align: middle;
+       }
 
     /***responsive tamaño movil***/
 
@@ -277,6 +287,7 @@ tbody td:before {
       h4{ 
         font-size: 0.7em;
       }
+      
   }
 
 
