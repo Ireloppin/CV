@@ -4,7 +4,7 @@ document.getElementById("en").addEventListener("click", ingles);
 function ingles(){
     $("h1")[0].textContent="Hello!, I´m Irene"
     $("h2")[0].innerHTML="Graduated in Audiovisual Communication,</br> Web Development and knitter.";
-    $("p")[2].textContent="I am an open person and I love learning new things. I love web development, I think it´s awesome. I am liable, hardworking and a fighter. I love challenges."
+    $("p")[2].textContent="I´m outgoing and lover of learning new things. I love web development, I think it´s awesome. I am liable, hardworking and a fighter. I love challenges."
     $("h2")[2].textContent="Professional experience"
     $("h3")[0].textContent="On line store developer"
     $("p")[3].textContent="Last 9 years I maked my own business with a partner and friend. In addition to all the tasks of a business, I developed the online store with Wordpress and Woocommerce. Thanks to this I discovered I love the world of web development and I am currently training to dedicate myself entirely to it."
