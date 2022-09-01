@@ -136,9 +136,10 @@ tbody td:before {
     line-height: 2;
   }
   .presentacion{
-    margin: 3% 10%;
+    margin: 3% 20%;
     line-height: 2;
-    text-align: justify;
+    text-align: center;
+
   }
   .titulo{
     background-color: #EAF6F6;
@@ -190,7 +191,7 @@ tbody td:before {
     margin-right: 30px;
   }
   .iconoder {
-    width: 30%;
+    width: 25%;
     float:right;
     margin-left: 30px;
   }
@@ -241,9 +242,17 @@ tbody td:before {
       tr td:first-child {
        font-size: 1em;
     }
+
+    .top-container{
+         padding: 0% 5% 2% 5%;
+       }
       .middle-container{
         margin-left: 5%;
         margin-right: 5%;
+    }
+
+    .presentacion{
+      margin: 3% 10%;
     }
     .bloque-texto{
       width: 90%;
@@ -252,6 +261,7 @@ tbody td:before {
       width: auto;
      max-height: 10em;
      float: none;
+     margin-right: 0px;
     }
     h1{
       font-size: 1.5em;
