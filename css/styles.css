@@ -95,6 +95,7 @@ tbody td:before {
     text-decoration:none;
     color: #EFEAD8;
     padding: 0.6em;
+    background-color: #EAF6F6; 
   }
 .flex-position{
     display: flex;
@@ -126,7 +127,7 @@ tbody td:before {
     margin-left: 9%;
     margin-right: 9%;
       }
-  .skills{
+  .bloque-experiencia{
     padding-top: 3%;
     padding-bottom: 3%;
   }
@@ -144,7 +145,7 @@ tbody td:before {
     padding: 2%;
   }
  
-  .skill-row{    
+  .bloque-texto{    
     width: 80%;
     margin: 5% auto;
     text-align: left;
@@ -175,7 +176,7 @@ tbody td:before {
     padding: 9px;
   }
 
-  .habilidades{
+  .texto-coloreado{
     color:#11999E;
     font-family:Verdana, Geneva, Tahoma, sans-serif;  
     font-weight: 600;
@@ -183,13 +184,13 @@ tbody td:before {
  }
 
 
-  .computer {
+  .iconoizq {
     width: 30%;
     float: left;
     margin-right: 30px;
   }
-  .chillies {
-    width: 25%;
+  .iconoder {
+    width: 30%;
     float:right;
     margin-left: 30px;
   }
@@ -244,7 +245,7 @@ tbody td:before {
         margin-left: 5%;
         margin-right: 5%;
     }
-    .skill-row{
+    .bloque-texto{
       width: 90%;
     }
     .perfil {
@@ -294,4 +295,8 @@ tbody td:before {
       margin-left: 7%;
       margin-right: 7%;
 }
+}
+
+.en{
+  display:none;
 }
