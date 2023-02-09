@@ -4,11 +4,11 @@ $("#en").click(function(){
     $("h1").text("Hello!, I´m Irene");
     $("#encabezado").html("Graduated in Audiovisual Communication,</br> Web Development and knitter.");
 
-    $(".presentacion p").text("I´m outgoing and lover of learning new things. I love web development, I think it´s awesome. I am liable, hardworking and a fighter. I love challenges.");
+    $(".presentacion p").text("Web developer by vocation. Self-taught, self-demanding and constant. My previous professional experience has allowed me to refine my ability to organize and prioritize tasks, as well as stress management. I like teamwork and dealing with all kinds of people. I consider myself a creative and curious person with a great capacity to adapt to new environments or technologies..");
 
     $(".bloque-experiencia .titulo").text("Professional experience");
     $("#expdesarrollo h3").text("On line store developer");
-    $("#expdesarrollo p").text("Last 9 years I maked my own business with a partner and friend. In addition to all the tasks of a business, I developed the online store with Wordpress and Woocommerce. Thanks to this I discovered I love the world of web development and I am currently training to dedicate myself entirely to it.");
+    $("#expdesarrollo p").text("During the last 9 years I have dedicated myself to creating my own business with a partner and friend. In addition to all the tasks typical of a business, I have dedicated myself to the creation, development, customization and operation of the online store. I have done this work with Wordpress and Woocommerce. Thanks to this I discovered I love the world of web development and I am currently training to dedicate myself to it entirely.");
     $("#expdesarrollo a").text("See this job");
 
     $("#exprealizacion h3").text("Tv director");
