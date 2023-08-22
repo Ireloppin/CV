@@ -1,19 +1,31 @@
-$("#en").click(function () {
+const ingles = $("#en");
+const esp = $("#es");
+
+ingles.click(function () {
+  ingles.addClass("active");
+  esp.removeClass("active");
   $("h1").text("Hello!, I´m Irene");
   $("#encabezado").html(
     "Graduated in Audiovisual Communication,</br> Web Development and knitter."
   );
+  $("#portfolio").text("Click here to view my portfolio");
 
-  $(".presentacion p").text(
-    "Web developer by vocation. Self-taught, self-demanding and constant. My previous professional experience has allowed me to refine my ability to organize and prioritize tasks, as well as stress management. I like teamwork and dealing with all kinds of people. I consider myself a creative and curious person with a great capacity to adapt to new environments or technologies.."
+  $("#presentacion").text(
+    "Web developer by vocation. Self-taught, self-demanding and constant. My previous professional experience has allowed me to refine my ability to organize and prioritize tasks, as well as stress management. I like teamwork and dealing with all kinds of people. I consider myself a creative and curious person with a great capacity to adapt to new environments or technologies."
   );
 
-  $(".bloque-experiencia .titulo").text("Professional experience");
+  $("#experiencia .titulo").text("Professional experience");
+
+  $("#expFront p").text(
+    "During this period I deepened my knowledge of JavaScript, CSS and HTML, and acquired many other skills such as Git, Docker, FireBase, Jest and Cypress."
+  );
+  $("#expFront .fecha").text("March 2023 - August 2023.");
+
   $("#expdesarrollo h3").text("On line store developer");
+  $("#expdesarrollo .fecha").text("December 2013 - April 2022");
   $("#expdesarrollo p").text(
-    "During the last 9 years I have dedicated myself to creating my own business with a partner and friend. In addition to all the tasks typical of a business, I have dedicated myself to the creation, development, customization and operation of the online store. I have done this work with Wordpress and Woocommerce. Thanks to this I discovered I love the world of web development and I am currently training to dedicate myself to it entirely."
+    "Creation, development, customization and operation of the online store. This work was done with Wordpress and Woocommerce."
   );
-  $("#expdesarrollo a").text("See this job");
 
   $("#exprealizacion h3").text("Tv director");
   $("#exprealizacion p").text(
@@ -30,20 +42,21 @@ $("#en").click(function () {
 
   $("#habilidades h2").text("Skills");
   $("#ing").text("Intermediate English");
-  $("#webdi").text("Web design");
 
   $("#formacion h2").text("Studies");
 
-  $("td")[1].textContent = "Currently";
-  $("td")[3].textContent = "Communyty Manager Course";
-  $("td")[4].textContent = "October 2011 to December 2011";
-  $("td")[6].textContent = "Degree in Audiovisual Communication";
-  $("td")[7].textContent = "2003 to 2008";
-  $("td")[9].textContent = "Intermediate English Course";
+  $("#formacion1 p").text("March 2023 - April 2023");
 
-  $("h3")[3].textContent = "Contact me:";
+  $("#formacion2 p").text("March 2022 - Currently");
+  $("#formacion3 h3").text("Bachelor's Degree in Audiovisual Communication");
+  $("#formacion4 h3").text("Community Manager Course");
+  $("#formacion4 p").text("October 2011 - December 2011");
+
+  $("#formacion5 h3").text("Intermediate English Diploma");
+
+  $("h3")[7].textContent = "Contact me:";
 });
 
-$("#es").click(function () {
+esp.click(function () {
   location.reload(true);
 });
